@@ -1,0 +1,51 @@
+.order{
+    margin-top: 4%;
+
+}
+.order__profilePic{
+    padding-right: 10%;
+
+}
+.profilepic{
+    width: 100%;
+
+}
+.profilepic__edit{
+    display: flex;
+    justify-content: center;
+}
+.profilepic__edit span{
+    padding: 5px 7px;
+    transition: all ;
+}
+.profilepic__edit span:hover{
+    border: 1px solid gray;
+}
+.order__heading{
+    font-size: 80%;
+    color: rgb(172, 172, 174);
+    border-bottom: 1px solid rgb(218, 218, 218) ;
+    padding-bottom: 3px ;
+}
+.title{
+    font-weight: bold;
+}
+.pref{
+    list-style-type: none;
+    margin-left: 3px;
+}
+.order__dislikes ul,
+.order__likes ul{
+    padding: 0
+}
+
+@media only screen and (max-width: 600px) {
+    .order__profilePic{
+        padding-right: 0;
+    
+    }
+    .order_name{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

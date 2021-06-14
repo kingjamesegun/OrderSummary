@@ -1,0 +1,18 @@
+*{
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+}
+
+.navbar{
+  background-color: rgb(20, 159, 223) !important;
+}
+svg{
+  color:rgb(20, 159, 223);
+}
+.spinner{
+  color: rgb(20, 159, 223);
+  position: absolute;
+  top: 50%;
+  left: 47%;
+
+}
