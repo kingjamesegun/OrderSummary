@@ -112,7 +112,7 @@ class Order extends React.Component {
               </div>
             </div>
           : <div className="spinner-grow spinner" role="status">
-            <span className="visually-hidden">Loading...</span>
+            <span className="visually-hidden"></span>
           </div>
       }
       </div>);

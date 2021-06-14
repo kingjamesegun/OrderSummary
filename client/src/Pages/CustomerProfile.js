@@ -27,10 +27,9 @@ class CustomerProfile extends React.Component {
           <div className="row">
             <div className=" col-lg-4 col-md-4 col-xs-12">
               <div className="order__profilePic">
-                {console.log(this.state.customer.likes)}
                 <img
                   src={ProfilePic}
-                  alt="profile picture"
+                  alt="profile"
                   className="profilepic animate__fadeIn"
                   style={{ animationDuration: '3s' }}
                 />
@@ -103,7 +102,7 @@ class CustomerProfile extends React.Component {
           </div>
             </div>
             :  <div className="spinner-grow spinner" role="status">
-            <span className="visually-hidden">Loading...</span>
+            <span className="visually-hidden"></span>
           </div>
   }
       </div>

@@ -1,5 +1,5 @@
 .order{
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .order__customer{
     display: flex;
@@ -36,7 +36,7 @@
         margin-top: 20px;
     }
     .order{
-        margin-top: 10%;
+        margin-top: 12%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -44,6 +44,6 @@
         margin-top:25px
     }
     .order{
-        margin-top: 20%;
+        margin-top: 23%;
     }
 }
